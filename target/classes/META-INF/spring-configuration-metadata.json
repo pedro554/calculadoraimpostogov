@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "br.gov.serpro.rtc.config.ApplicationConfig",
+      "sourceType": "br.gov.serpro.rtc.config.ApplicationConfig"
+    },
+    {
+      "name": "cache",
+      "type": "br.gov.serpro.rtc.config.cache.CacheSpecs",
+      "sourceType": "br.gov.serpro.rtc.config.cache.CacheSpecs"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.date-time-format",
+      "type": "java.lang.String",
+      "sourceType": "br.gov.serpro.rtc.config.ApplicationConfig"
+    },
+    {
+      "name": "application.locale",
+      "type": "java.lang.String",
+      "sourceType": "br.gov.serpro.rtc.config.ApplicationConfig"
+    },
+    {
+      "name": "application.timezone",
+      "type": "java.lang.String",
+      "sourceType": "br.gov.serpro.rtc.config.ApplicationConfig"
+    },
+    {
+      "name": "cache.specs",
+      "type": "java.util.List<br.gov.serpro.rtc.config.cache.CacheSpecs$CacheSpec>",
+      "sourceType": "br.gov.serpro.rtc.config.cache.CacheSpecs"
+    }
+  ],
+  "hints": []
+}
